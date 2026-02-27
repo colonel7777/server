@@ -16,10 +16,3 @@ Route::post('/edit', EditTasksController::class)->name('edit');
 Route::get('/delete/{id}', DeleteTasksController::class)->name('delete');
 
 
-//Route::get('/books/{id}-{alt_name}.html', BooksController::class)->name('books_page');
-//Route::get('/read/{id}-{alt_name}.html', ReadBookController::class)->name('read_page');
-//Route::get('/dashboard', function () {
-//    return view('dashboard');
-//})->middleware(['auth'])->name('dashboard');
-
-//require __DIR__.'/auth.php';
