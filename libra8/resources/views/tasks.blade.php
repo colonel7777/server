@@ -7,7 +7,7 @@
 
 @include('inc.alert')
 
-<h1>Add</h1>
+<h2>Добавить</h2>
 
             
 <form method="post" class="col-3 offset-4 border rounded" name='form'  action="/add">
